@@ -69,8 +69,8 @@ def recommend(job_title):
         return []
 
 # Streamlit UI with layout
-st.markdown("# Job Description Course Recommendation System")
-st.markdown("## Find similar courses based on job descriptions")
+st.markdown("#Career Pathway Course Advisor")
+st.markdown("## Find courses relevant for each position")
 
 # Implementing searchable select box
 selected_job = st.selectbox(
